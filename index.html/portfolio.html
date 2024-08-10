@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+   <link rel="stylesheet" href="home.css">
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+   <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+  
+  <nav class="p-5 bg-gray-900 md:flex md:items-center md:justify-between">
+    <div class="flex justify-between items-center">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+
+      <span class="text-2xl font-[poppins] cursor-pointer">
+
+        <span class="ml-3 text-xl">Hevy portfolio</span>
+      </span>
+          
+      <span class="text-3xl cursor-pointer ma-2 mx-2 md:hidden block">
+         <ion-icon name="menu" onclick="Menu(this)" ></ion-icon>
+         
+      </span>
+    
+ 
+            <ul class="md:flex md:items-center z=[-1] font-serif md:z-auto md:static absolute  text-gray-600 w-full right-50 md:w-auto md:py-0 
+            py-4 md:pl-20 pl-7 md:opacity-100  opacity-0 top-[-400px] transition-all ease-in duration-500">
+  
+
+          <li class="mx-6 my-6 md:my-0 " >
+        <a href="portfolio.html" class="text-lg  md:border-gray-700	 hover:text-white  duration-500" >HOME</a></li>
+      <li class="mx-6 my-6 md:my-0 ">
+    <a href="skills.html" class="text-lg  md:border-gray-700	 hover:text-white duration-500">SKILLS</a></li>
+    <li class="mx-6 my-6 md:my-0">
+    <a href="contact.html" class="text-lg  md:border-gray-700	 hover:text-white  duration-500">CONTACT</a></li>
+            </ul>
+
+          </div>
+        </nav>
+        
+        <script>
+          function Menu(e){
+             let list = document.querySelector('ul');
+             if(e.name === 'menu'){
+               e.name = "close";
+               list.classList.add('top-[80px]');
+               list.classList.add('opacity-100');
+             } else {
+               e.name = "menu";
+               list.classList.remove('top-[80px]');
+               list.classList.remove('opacity-100');
+             }
+          }
+        </script>
+        
+      
+
+<body class="bg-black">
+
+  <section class="m-20  my-[35vmin] ">
+    <div class=" text-center m-[5vmin] my-[20vmin] ">
+   
+  
+
+  <h2 class="text-2xl font-serif  text-white p-3">Hey there,</h2>
+  <p class="text-5xl font-serif  text-gray-500 text-pretty "> I'm Hibist Demu </p>
+  <p class="text-2xl font-serif text-pretty  text-white p-3" > I'm A student and passionate about web-design </p>
+  <p class="text-2xl font-serif  text-gray-400">  I am here to make you a passionate web designer, web developer, 
+    create amazing websites, know about programming languages also solve design challengs.....</p>
+    </div>
+  
+  
+    </section>
+  
+
+
+</body>
+ 
+
+
+
+</body>
+</html>
