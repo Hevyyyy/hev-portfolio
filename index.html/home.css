@@ -3,3 +3,24 @@
 @tailwind utilities;
 
 
+
+<body class="bg-black">
+
+  <section class="m-20  my-[35vmin] ">
+    <div class=" text-center m-[5vmin] my-[20vmin] ">
+   
+  
+
+  <h2 class="text-2xl font-serif  text-white p-3">Hey there,</h2>
+  <p class="text-5xl font-serif  text-gray-500 text-pretty "> I'm Hibist Demu </p>
+  <p class="text-2xl font-serif text-pretty  text-white p-3" > I'm A student and passionate about web-design </p>
+  <p class="text-2xl font-serif  text-gray-400">  I am here to make you a passionate web designer, web developer, 
+    create amazing websites, know about programming languages also solve design challengs.....</p>
+    </div>
+  
+  
+    </section>
+  
+
+
+</body>
